@@ -1,0 +1,22 @@
+
+need to be able to specify stuff for 
+connect_to, connect_from
+pre_init, post_init 
+interact, update
+really need all of these?
+
+hmm, could have specific parts of markup language for making things like distributors, etc?
+
+NODE name=photoreceptor
+     UPDATE.......
+     CONNECT TO node(name=poop, closer_than=10, self_cx_less_than=3)
+     this ^ seems a bit silly, how to make easy to pass simple functions?
+     DISTRIBUTE 
+
+or 
+<node>
+	asdfasdf
+</node>
+
+
+DISTRIBUTION name=gridlike
